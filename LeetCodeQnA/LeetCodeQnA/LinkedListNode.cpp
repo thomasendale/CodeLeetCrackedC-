@@ -176,17 +176,4 @@ int LinkedListNode::Count(ListNode* head)
 	}
 	return count;
 }
-
-//helper method which will create a linked list from an Array.
-ListNode* LinkedListNode::CreateLinkedListFromArray()
-{
-	int i = 5;
-	ListNode* head = nullptr;
-	while (i>0)
-	{
-		head=this->AddItemToLinkedList(head, 2);
-		i++;
-	}
-	return nullptr;
-}
 LinkedListNode::~LinkedListNode(){};
